@@ -1,0 +1,36 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+@keyframes pulse {
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: #cccccc;
+  }
+
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+.wp-block-wcn-load-post {
+  padding: 0.5em;
+  border: 1px dashed rgba(0, 0, 0, 0.5);
+
+  &.no-post {
+    background: yellow;
+    animation: none;
+  }
+  &.loading {
+    animation: pulse 3s infinite;
+  }
+
+  &.has-post {
+    animation: none;
+  }
+}

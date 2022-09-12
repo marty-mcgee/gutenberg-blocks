@@ -1,0 +1,44 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-wcn-random-image {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding:30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  display: flex;
+}
+
+.wp-block-wcn-random-image .column {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+}
+
+.wp-block-wcn-random-image h2 {
+  font-size: 1.5em;
+}
+
+.wp-block-wcn-random-image ul {
+  padding-left: 2.5em !important;
+}
+
+.wp-block-wcn-random-image {
+  background: #f3e88e;
+  color: #fff;
+  border: 2px solid #ead9a6;
+  border-radius: 10px;
+  padding: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+
+  img {
+      border-radius: inherit;
+      border: 1px dotted #caac69;
+      display: grid;
+  }
+}

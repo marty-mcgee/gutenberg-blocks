@@ -1,0 +1,131 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.components-panel__row {
+  margin-top: 0; }
+
+.card {
+  padding: 0;
+  margin-bottom: 10px !important; }
+
+.nav-link {
+  cursor: pointer; }
+
+.btn {
+  margin-top: 10px; }
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.components-panel__row {
+  margin-top: 0; }
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wcn-testimonial-block {
+  background: #fafafa;
+  border-radius: 5px;
+  border: 1px solid #cacaca; }
+
+.content-plain-text {
+  min-height: 58px !important; }
+
+.wp-block-quote {
+  margin-bottom: 0.5em; }
+
+button.add-more-testimonial {
+  height: 55px;
+  width: 55px;
+  background: #939393;
+  border-radius: 50%;
+  position: relative;
+  border: none;
+  font-size: 2em;
+  color: white;
+  line-height: 1; }
+
+span.remove-testimonial {
+  right: 30px;
+  position: absolute; }
+
+textarea.editor-plain-text.content-plain-text,
+textarea.editor-plain-text.author-plain-text,
+textarea.editor-plain-text.link-plain-text {
+  background: #fafafa;
+  border: 1px solid #dadada;
+  border-radius: 5px; }
+
+.wcn__picture {
+  position: relative; }
+  .wcn__picture a {
+    cursor: pointer; }
+  .wcn__picture .wcn__picture__actions {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 30px;
+    font-size: .8em;
+    text-align: center; }
+
+.wcn__picture__image {
+  display: block;
+  cursor: pointer;
+  line-height: 100px;
+  text-align: center; }
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+/*
+.wp-block-cgb-block-wcn-block-one  {
+  background: $green;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+*/
+@-webkit-keyframes pulse {
+  0% {
+    background-color: #ffffff; }
+  50% {
+    background-color: #cccccc; }
+  100% {
+    background-color: #ffffff; } }
+@keyframes pulse {
+  0% {
+    background-color: #ffffff; }
+  50% {
+    background-color: #cccccc; }
+  100% {
+    background-color: #ffffff; } }
+
+.wp-block-cgb-block-wcn-block-three {
+  padding: 0.5em;
+  border: 1px dashed rgba(0, 0, 0, 0.5); }
+  .wp-block-cgb-block-wcn-block-three.no-post {
+    background: yellow;
+    -webkit-animation: none;
+            animation: none; }
+  .wp-block-cgb-block-wcn-block-three.loading {
+    -webkit-animation: pulse 3s infinite;
+            animation: pulse 3s infinite; }
+  .wp-block-cgb-block-wcn-block-three.has-post {
+    -webkit-animation: none;
+            animation: none; }
+
+.wp-block-cgb-block-wcn-block-three select {
+  padding: 2px;
+  margin: 7px 0 5px 2px;
+  border-radius: 3px; }

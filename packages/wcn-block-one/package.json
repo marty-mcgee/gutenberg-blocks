@@ -1,0 +1,23 @@
+{
+  "name": "@gutenberg-blocks/wcn-block-one",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.7.1",
+    "@material-ui/docs": "^3.0.0-alpha.8",
+    "@material-ui/icons": "^3.0.1",
+    "@wordpress/api-fetch": "^2.2.6",
+    "bootstrap": "^4.2.1",
+    "cgb-scripts": "1.14.0",
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "reactstrap": "^6.5.0"
+  }
+}

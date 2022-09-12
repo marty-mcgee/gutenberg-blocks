@@ -1,0 +1,96 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+// @import '@material/top-app-bar/mdc-top-app-bar';
+// @import '@material/typography/mdc-typography';
+
+body {
+  margin: 0;
+}
+
+.demo-text-container {
+  padding: 8px;
+  padding-top: 68px;
+}
+
+.demo-paragraph:first-child {
+  margin-top: 0;
+}
+
+.demo-controls-box {
+  //@include mdc-elevation(4);
+  min-width: 160px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+}
+
+.demo-control-checkbox {
+  margin: 12px 0;
+}
+
+.demo-control-checkbox__label {
+  margin: 0 8px;
+}
+
+.demo-control-checkbox--disabled {
+  color: grey;
+}
+
+
+.wp-block-wcn-editable-block  {
+  background: $white;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+
+.wp-block-wcn-editable-block {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding:30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  display: flex;
+}
+
+.wp-block-wcn-editable-block .column {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+}
+
+.wp-block-wcn-editable-block .track-image {
+  background: #f1f1f1;
+  min-height:100px;
+  text-align: center;
+}
+
+.wp-block-wcn-editable-block .track-image button {
+  margin-top: 30px;
+}
+
+.wp-block-wcn-editable-block .track-image button.image-button {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.wp-block-wcn-editable-block .track-image img {
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+
+.wp-block-wcn-editable-block h2 {
+  font-size: 1.5em;
+}
+
+.wp-block-wcn-editable-block ul {
+  padding-left: 2.5em !important;
+}

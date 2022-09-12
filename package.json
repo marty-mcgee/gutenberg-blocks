@@ -1,0 +1,25 @@
+{
+  "name": "gutenberg-blocks",
+  "version": "0.1.0",
+  "description": "Boilerplate WordPress Plugin for Gutenberg Blocks (WP Blocks) UI Editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marty-mcgee/gutenberg-blocks.git"
+  },
+  "author": "Marty McGee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marty-mcgee/gutenberg-blocks/issues"
+  },
+  "homepage": "https://github.com/marty-mcgee/gutenberg-blocks#readme",
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "gutenberg-blocks",
+    "wp-editor"
+  ]
+}

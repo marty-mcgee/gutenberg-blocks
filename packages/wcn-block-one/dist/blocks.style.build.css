@@ -1,0 +1,186 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-wcn-load-post {
+  background: #f4f4f4;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+body {
+  margin: 0; }
+
+.demo-text-container {
+  padding: 8px;
+  padding-top: 68px; }
+
+.demo-paragraph:first-child {
+  margin-top: 0; }
+
+.demo-controls-box {
+  min-width: 160px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px; }
+
+.demo-control-checkbox {
+  margin: 12px 0; }
+
+.demo-control-checkbox__label {
+  margin: 0 8px; }
+
+.demo-control-checkbox--disabled {
+  color: grey; }
+
+.wp-block-wcn-editable-block {
+  background: #f4f4f4;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+
+.wp-block-wcn-editable-block {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding: 30px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-block-wcn-editable-block .column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.wp-block-wcn-editable-block .track-image {
+  background: #f1f1f1;
+  min-height: 100px;
+  text-align: center; }
+
+.wp-block-wcn-editable-block .track-image button {
+  margin-top: 30px; }
+
+.wp-block-wcn-editable-block .track-image button.image-button {
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+.wp-block-wcn-editable-block .track-image img {
+  display: block;
+  z-index: 1;
+  position: relative; }
+
+.wp-block-wcn-editable-block h2 {
+  font-size: 1.5em; }
+
+.wp-block-wcn-editable-block ul {
+  padding-left: 2.5em !important; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-wcn-random-image {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding: 30px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-block-wcn-random-image .column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.wp-block-wcn-random-image h2 {
+  font-size: 1.5em; }
+
+.wp-block-wcn-random-image ul {
+  padding-left: 2.5em !important; }
+
+.wp-block-wcn-random-image {
+  background: #f3e88e;
+  color: #fff;
+  border: 2px solid #ead9a6;
+  border-radius: 10px;
+  padding: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; }
+  .wp-block-wcn-random-image img {
+    border-radius: inherit;
+    border: 1px dotted #caac69;
+    display: grid; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-wcn-mui-button {
+  background: #f4f4f4;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+
+.wp-block-wcn-mui-button {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding: 30px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-block-wcn-mui-button .column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-direction: column;
+      flex-direction: column; }

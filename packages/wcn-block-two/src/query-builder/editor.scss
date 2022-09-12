@@ -1,0 +1,51 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+// gutenberg panel row
+.components-panel__row {
+    margin-top: 0;
+}
+
+// bootstrap
+.card {
+    padding: 0;
+    margin-bottom: 10px !important;
+}
+.nav-link {
+    cursor: pointer;
+}
+.btn {
+    margin-top: 10px;
+}
+
+// @keyframes pulse {
+//   0% {
+//     background-color: #ffffff;
+//   }
+//   50% {
+//     background-color: #cccccc;
+//   }
+//   100% {
+//     background-color: #ffffff;
+//   }
+// }
+
+// .wp-block-wcn-query-builder {
+//   padding: 0.5em;
+//   border: 1px dashed rgba(0, 0, 0, 0.5);
+
+//   &.no-post {
+//     background: yellow;
+//     animation: none;
+//   }
+//   &.loading {
+//     animation: pulse 3s infinite;
+//   }
+//   &.has-post {
+//     animation: none;
+//   }
+// }

@@ -17,33 +17,35 @@
  *
  * TODO: Instructions.
  *
- * @since 1.0.0
  */
 
-const webpack = require( 'webpack' );
-const path = require( 'path' );
-const autoprefixer = require( 'autoprefixer' );
-const ExtractTextPlugin = require( 'extract-text-webpack-plugin' );
+const webpack = require( 'webpack' )
+const path = require( 'path' )
+const autoprefixer = require( 'autoprefixer' )
+const ExtractTextPlugin = require( 'extract-text-webpack-plugin' )
 
 // Extract style.css for both editor and frontend styles.
 const blocksCSSPlugin = new ExtractTextPlugin( {
 	filename: './dist/blocks.style.build.css',
-} );
+} )
 
 // Extract editor.css for editor styles.
 const editBlocksCSSPlugin = new ExtractTextPlugin( {
 	filename: './dist/blocks.editor.build.css',
-} );
+} )
 
-// Source maps are resource heavy and can cause out of memory issue for large source files.
-const shouldUseSourceMap = process.env.GENERATE_SOURCEMAP === 'true';
+// Source Maps
+// are resource heavy and can cause out of memory issue for large source files.
+// process.env.GENERATE_SOURCEMAP boolean
+const GENERATE_SOURCEMAP = false
+const shouldUseSourceMap = GENERATE_SOURCEMAP === true
 
-const devPlugins = [ blocksCSSPlugin, editBlocksCSSPlugin ];
+const devPlugins = [ blocksCSSPlugin, editBlocksCSSPlugin ]
 
 const prodPlugins = [
 	blocksCSSPlugin,
 	editBlocksCSSPlugin,
-];
+]
 
 // Configuration for the ExtractTextPlugin — DRY rule.
 const extractConfig = {
@@ -75,7 +77,7 @@ const extractConfig = {
 			},
 		},
 	],
-};
+}
 
 // Export configuration.
 module.exports = {
@@ -117,4 +119,4 @@ module.exports = {
 	plugins: 'production' === process.env.MODE ? prodPlugins : devPlugins,
 	//stats: 'minimal',
 	// stats: 'errors-only',
-};
+}

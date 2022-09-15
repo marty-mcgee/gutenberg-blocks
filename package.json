@@ -1,6 +1,6 @@
 {
   "name": "gutenberg-blocks",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Boilerplate WordPress Plugin for JavaScript/TypeScript development of Gutenberg Blocks (WP Blocks) UI Editor",
   "author": "Marty McGee",
   "license": "MIT",
